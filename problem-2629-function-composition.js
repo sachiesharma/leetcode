@@ -9,7 +9,7 @@ var compose = function (functions) {
     }
     // let result = x;
     for (let i = functions.length - 1; i >= 0; i--) {
-      x = functions[n](x);
+      x = functions[i](x);
     }
     return x;
   };
