@@ -23,6 +23,7 @@ function romanToInt(s: string): number {
 }
 
 console.log(romanToInt("III"));
+console.log("hello!");
 
 // Notes
 // Map out the roman numerals and their values
