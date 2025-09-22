@@ -22,3 +22,14 @@ const maxArea = function (num) {
   }
   return currentMax;
 };
+
+// loop through until you find the largest area
+
+// need area of water = length * height
+
+// find 2 indeces of n using 'two pointers'
+// height = math.min(num[left], num[right])
+// width = (right - left)
+// height * width
+// left ++, right --;
+// return largest area
