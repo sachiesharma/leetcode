@@ -22,7 +22,7 @@ function romanToInt(s: string): number {
   return total;
 }
 
-console.log(romanToInt("III"));
+console.log(romanToInt("X"));
 console.log("hello!");
 
 // Notes
